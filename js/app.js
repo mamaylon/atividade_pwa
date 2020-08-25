@@ -7,7 +7,7 @@ if ("serviceWorker" in navigator) {
   })
 }
 
-if (navigator.mediaDevices && typeof navigator.mediaDevices.getUserMedia === 'function') 
+if (navigator.ontouchstart) 
 {
 
   function startDrag(e) 
