@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="manifest" href="manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#4c81fc" />
+    <meta name="theme-color" content="#4c81fc" />
+
+    <style>
+        #app {
+            padding-top: 2em;
+        }
+
+        .peca
+        {
+            width: 133px;
+            height: 74px;
+            z-index: 5;
+            position: absolute;
+            top: 335px;
+            left: 50px;
+            -ms-touch-action: none;
+        }
+
+        .peca:nth-child(2) 
+        {
+            width: 133px;
+            height: 74px;
+            top: 150px;
+            left: 150px;
+        }
+
+        .peca:nth-child(3) 
+        {
+            width: 108px;
+            height: 74px;
+            top: 450px;
+            left: 200px;
+        }
+
+        .peca:nth-child(4) 
+        {
+            width: 108px;
+            height: 74px;
+            top: 270px;
+            left: 220px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue">
+                <a href="#" class="brand-logo truncate">Quebra-cabeça</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container" id="app">
+        
+        <div class="row">
+            <div class="col s12">
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./img/peca4.png" class="peca">
+            <img src="./img/peca2.png" class="peca">
+            <img src="./img/peca1.png" class="peca">
+            <img src="./img/peca3.png" class="peca">
+        </div>    
+    </div>
+
+    <div class="fixed-action-btn">
+        <button class=" btn-large blue waves-effect waves-light" id="btn-instalar" hidden><i class="material-icons right">home</i>Instalar a aplicação</button>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/instalar.js"></script>
+
+</body>
+
+</html>
