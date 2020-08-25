@@ -1,7 +1,7 @@
 const CACHE_NAME = "itapeshopping-v8";
 const assets = [
     "/",
-    "/app.html",
+    "/index.html",
     "/manifest.json",
     "/css/materialize.min.css",
     "/js/materialize.min.js",
