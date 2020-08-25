@@ -1,16 +1,16 @@
-const CACHE_NAME = "itapeshopping-v8";
+const CACHE_NAME = "quebracuca";
 const assets = [
-    "/",
-    "/index.html",
-    "/manifest.json",
-    "/css/materialize.min.css",
-    "/js/materialize.min.js",
-    "/js/instalar.js",
-    "/js/app.js",
-    "/img/peca1.png",
-    "/img/peca2.png",
-    "/img/peca3.png",
-    "/img/peca4.png"
+    "./",
+    "./index.html",
+    "./manifest.json",
+    "./css/materialize.min.css",
+    "./js/materialize.min.js",
+    "./js/instalar.js",
+    "./js/app.js",
+    "./img/peca1.png",
+    "./img/peca2.png",
+    "./img/peca3.png",
+    "./img/peca4.png"
 ];
 
 self.addEventListener('install', (e) => {
